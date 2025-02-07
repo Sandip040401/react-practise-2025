@@ -1,10 +1,14 @@
-import { Map } from "./components/Map";
+import { Map, PractiseMap } from "./components/Map";
 
 
 function App(){
 
   return(
-    <Map/>
+    <>
+      {/* maps in javascript */}
+        <Map/>
+        <PractiseMap/>
+    </>
   )
 }
 
